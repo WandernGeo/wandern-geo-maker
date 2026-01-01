@@ -11,7 +11,7 @@ env:
   PROJECT_ID: "wandern-project-startup"
   REGION: "us-central1"
   FUNCTION_NAME: "geo-maker"
-  ENTRY_POINT: "create_geo_echo"
+  ENTRY_POINT: "process_echo"
   RUNTIME: "python311"
 
 jobs:
